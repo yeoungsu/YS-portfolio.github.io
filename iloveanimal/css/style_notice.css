@@ -1,0 +1,240 @@
+@charset "utf-8";
+@font-face {
+  font-family: "Jalnan";
+  font-style: normal;
+  src: url(../webfont/Jalnan.woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+body {
+  font: 16px;
+  font-family: Arial, '맑은 고딕', sans-serif;
+}
+
+/* #wrap {
+
+    margin: 0 auto;
+} */
+header .login_under {
+  border-bottom: 1px solid #ddd;
+  box-shadow: 1px 1px 5px #ddd;
+  margin-bottom: 5px;
+}
+header .login {
+  width: 100%;
+  max-width: 1280px;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .login .t_word p {
+  color: rgb(125, 125, 125);
+}
+header .login ul {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .login ul li::after {
+  content: "|";
+  color: rgb(125, 125, 125);
+}
+header .login ul li:last-child:after {
+  content: "";
+}
+header .login ul li a {
+  padding: 0 20px;
+  color: rgb(125, 125, 125);
+}
+header .logo {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .menu {
+  background: #1b3440;
+  /* height: 55px; */
+}
+header .menu .mainmenu {
+  width: 100%;
+  max-width: 1280px;
+  height: 55px;
+  margin: 0 auto;
+}
+header .menu .mainmenu > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .menu .mainmenu > ul > li {
+  position: relative;
+  flex: 1 1 20%;
+}
+header .menu .mainmenu > ul > li > a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 55px;
+  color: #fff;
+}
+header .menu .mainmenu > ul > li:hover > a,
+header .menu .mainmenu ul li .submenu li:hover a {
+  background: #112128;
+  color: #fff;
+}
+header .menu .mainmenu > ul:hover .submenu {
+  /* display: block; */
+  height: 225px;
+}
+header .menu .mainmenu .submenu {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 55px;
+  height: 0;
+  overflow: hidden;
+  display: block;
+  z-index: 1;
+  transition: height 0.5s;
+  background: #fff;
+}
+header .menu .mainmenu .submenu li a {
+  display: block;
+  text-align: center;
+  line-height: 45px;
+  color: #1b3440;
+}
+/* header */
+
+.slide {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  height: 300px;
+  margin: 0 auto;
+  background: #bbb;
+}
+.slide a {
+  width: 100%;
+  height: 100%;
+}
+.slide a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* slide */
+
+.notice {
+  width: 100%;
+  max-width: 1080px;
+  margin: 20px auto 0;
+  /* text-align: center; */
+}
+.notice .top {
+  /* width: 100%;
+  border: 1px solid #000; */
+}
+.notice .article {
+  margin-bottom: 3px;
+}
+.notice .top .article {
+  background: #3c7894;
+  border-radius: 10px;
+  padding: 15px 0;
+  box-sizing: border-box;
+  color: #fff;
+  position: relative;
+  /* margin-bottom: 3px; */
+}
+.notice .article ul {
+  width: 100%;
+  overflow: hidden;
+}
+.notice .article ul li {
+  float: left;
+  font-size: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-align: center;
+}
+.notice .article ul .no {
+  width: 10%;
+  text-align: center;
+}
+.notice .article ul .subject {
+  width: 66%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.notice .article ul .date {
+  width: 14%;
+}
+.notice .article ul .hit {
+  width: 10%;
+}
+
+.notice .article > a {
+  display: block;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px 0;
+  box-sizing: border-box;
+  color: #333333;
+}
+.notice .article > a:hover {
+  background: #eee;
+}
+/* notice */
+
+footer {
+  /* position: fixed;
+  width: 100%;
+  bottom: 0; */
+  background: #1b3440;
+  height: 100px;
+  margin-top: 100px;
+}
+footer .foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
+footer .foot p {
+  font-size: 13px;
+  color: #ccc;
+}
+footer .foot p:nth-of-type(1) {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+footer .foot p:nth-of-type(2) {
+  color: #fff;
+}
+/* footer */

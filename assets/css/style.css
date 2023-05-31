@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* .project {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #000;
+    padding-left: 0;
+}
+.project span {
+    display: block;
+    width: 500px;
+}
+.project span img {
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+} */
+.us_myeon {
+    /* float: right; */
+    /* border: 1px solid #000; */
+}
