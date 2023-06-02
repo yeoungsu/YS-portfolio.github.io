@@ -17,11 +17,12 @@ body {
 }
 
 #wrap {
-  /* margin: 0 auto; */
+  width: 100%;
 }
 header {
   width: 100%;
-  max-width: 1920px;
+  border: 2px solid #000;
+  background: linear-gradient(90deg, #0b3e27, #197149);
 }
 header .header_top {
   width: 100%;
@@ -29,7 +30,7 @@ header .header_top {
   height: 110px;
   margin: 0 auto;
   display: flex;
-  background: linear-gradient(90deg, #0b3e27, #197149);
+  /* background: linear-gradient(90deg, #0b3e27, #197149); */
 }
 header .header_top .menubtn {
   width: 35%;
@@ -108,7 +109,9 @@ header .menusub_bg {
 }
 header .menusub {
   padding: 60px 0 32px 0;
+  margin: 0 auto;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 header .menusub .left {
@@ -173,6 +176,9 @@ header .menusub .right ul {
   overflow: hidden;
   column-gap: 8px;
 }
+header .menusub .right .making, header .menusub .right .new {
+  display: none;
+}
 header .menusub .right ul li {
   padding: 6px 0;
 }
@@ -209,14 +215,18 @@ header .menusub .right ul li p:last-of-type {
   font-size: 26px;
   font-weight: 700;
 }
+
+
 header .lang {
-  width: 1612px;
+  width: 100%;
+  max-width: 1612px;
   height: 64px;
   margin: 0 153px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   line-height: normal;
+  margin: 0 auto;
 }
 header .lang a {
   color: #fff;
