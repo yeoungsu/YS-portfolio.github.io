@@ -2389,10 +2389,15 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 10px 0;
 			width: 100%;
+			/* border: 2px solid #000; */
 		}
-
+		.image.profile {
+			width: 60%;
+		}
 			.image.fit img {
 				width: 100%;
+				object-fit: cover;
+				object-position: center;
 			}
 
 /* List */
@@ -3366,7 +3371,6 @@ input, select, textarea {
 			#one {
 				text-align: center;
 			}
-
 		/* Two */
 
 			#two {
