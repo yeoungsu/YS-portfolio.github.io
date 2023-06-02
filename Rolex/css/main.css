@@ -21,7 +21,6 @@ body {
 }
 header {
   width: 100%;
-  border: 2px solid #000;
   background: linear-gradient(90deg, #0b3e27, #197149);
 }
 header .header_top {
